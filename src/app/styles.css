@@ -1,0 +1,8 @@
+:root {
+    --red: #ff0000;
+    font-size:16px;
+}
+
+html, body {
+    font-size: 1.0rem;
+}
