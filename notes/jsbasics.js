@@ -44,5 +44,10 @@ export default function SomeComponent(prop1, ...rest){
 // 'rem' sizing means relative to defined root element size
 // 'exact route means the exact value needs to be passed, nothing less or more. i.e. <Route exact path="/"> will only route to defined "/" path - not "/about-us"
 // return null is useful when you don't need to display anything
+// The 'withRouter' component is a high-order component (HOC). It passes data from ne component to another
+// To use state, import 'useState' component and add it to your function as a const.
+// State jas two components - a getter and a setter.
+// Four types of state: component level, container level, local storage, context
+// If you are passing a value, you need to put it inside an arrow function
 
 
